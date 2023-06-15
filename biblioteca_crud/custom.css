@@ -1,0 +1,23 @@
+.header{font-size: 25px;
+text-align: center;}
+
+#menu{align-items: center;
+justify-content: space-around;}
+
+body{margin: 0;
+padding: 0;
+height: 100%vh;
+box-sizing: border-box;
+background-image: url(./img/biblioteca.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+;}
+
+#livro{color: rgb(3, 44, 156);
+text-decoration:solid;
+text-overflow:clip;
+font-style:oblique;}
+
+#tabela{color: rgb(202, 202, 202)}
+#TextOU{font-size: 5px;}

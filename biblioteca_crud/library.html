@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <title>Library Hub</title>
+    <div class="container">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="custom.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    </div>
+</head>
+<body>
+    <div class="header text-dark "> O paraíso do bibliófilo</div>
+    
+    <div class="container-fluid pb-  d-flex justify-content-center" id="menu">
+        <h1>Library Hub</h1> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="author.html">Autores</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="book.html">Produtos <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="editora.html">Editoras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Cadastrar-se</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cadastro.php">Login</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tabelas
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="tabela_autor.php">Autores</a></li>
+                    <li><a class="dropdown-item" href="tabela.php">Livros</a></li>
+                    <li><a class="dropdown-item" href="tabela_editora.php">Editoras</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tabela_usuario.php">Usuarios</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </div>    
+    
+    <div class="text-center container py-5">
+        <h4 class="mt-4 mb-5"><strong>Bestsellers</strong></h4>
+    
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                data-mdb-ripple-color="light">
+                <img src="./img/a_cabana.jpg"
+                  class="w-100 h-100" />
+                <a href="#!">
+                  <div class="mask">
+                    <div class="d-flex justify-content-start align-items-end h-100">
+                      <h5><span class="badge bg-primary ms-2">New</span></h5>
+                    </div>
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="card-body">
+                <a href="" class="text-reset">
+                  <h5 class="card-title mb-3">A Cabana</h5>
+                </a>
+                <a href="" class="text-reset">
+                  <p>Romance</p>
+                </a>
+                <h6 class="mb-3">$61.99</h6>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                data-mdb-ripple-color="light">
+                <img src="./img/call_of_chutullu.jpg"
+                  class="w-100 h-100" />
+                <a href="#!">
+                  <div class="mask">
+                    <div class="d-flex justify-content-start align-items-end h-100">
+                        <h5><span class="badge bg-primary ms-2">New</span></h5>
+                    </div>
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="card-body">
+                <a href="" class="text-reset">
+                  <h5 class="card-title mb-3">Call of Chutullu</h5>
+                </a>
+                <a href="" class="text-reset">
+                  <p>Literatura e Ficção. Horror</p>
+                </a>
+                <h6 class="mb-3">$61.99</h6>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                <img src="./img/deuses_neon.jpg"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask">
+                    <div class="d-flex justify-content-start align-items-end h-100">
+                      <h5><span class="badge bg-danger ms-2">-10%</span></h5>
+                    </div>
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="card-body">
+                <a href="" class="text-reset">
+                  <h5 class="card-title mb-3">Deuses de Neon</h5>
+                </a>
+                <a href="" class="text-reset">
+                  <p>Literatura e Ficção. Horror</p>
+                </a>
+                <h6 class="mb-3">
+                  <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                <img src="./img/giz_homem.jpg"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask">
+                    <div class="d-flex justify-content-start align-items-end h-100">
+                      <h5>
+                          <span class="badge bg-danger ms-2">-10%</span>
+                      </h5>
+                    </div>
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="card-body">
+                <a href="" class="text-reset">
+                  <h5 class="card-title mb-3">O Homem de Giz</h5>
+                </a>
+                <a href="" class="text-reset">
+                  <p>Policial, Suspense e Mistério</p>
+                </a>
+                <h6 class="mb-3">
+                  <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
+                </h6>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                data-mdb-ripple-color="light">
+                <img src="./img/memoria_subsolo.jpg"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask">
+                    <div class="d-flex justify-content-start align-items-end h-100"></div>
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="card-body">
+                <a href="" class="text-reset">
+                  <h5 class="card-title mb-3">Memórias do Subsolo</h5>
+                </a>
+                <a href="" class="text-reset">
+                  <p>Romance</p>
+                </a>
+                <h6 class="mb-3">$61.99</h6>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                <img src="./img/shork.jpg"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask">
+                    <div class="d-flex justify-content-start align-items-end h-100">
+                      <h5>
+                        <span class="badge bg-primary ms-2">New</span><span class="badge bg-danger ms-2">-10%</span>
+                      </h5>
+                    </div>
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="card-body">
+                <a href="" class="text-reset">
+                  <h5 class="card-title mb-3">Sherlock Holmes</h5>
+                </a>
+                <a href="" class="text-reset">
+                  <p>Ficção. Mistério</p>
+                </a>
+                <h6 class="mb-3">
+                  <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+            
+            
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+</body>
+</html>
